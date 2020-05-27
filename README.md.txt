@@ -48,6 +48,7 @@ Your trip caused 2.6kg of CO2-equivalent.
 
 
 Execution: 
+use com.vehicle_emission as package for this program
 *. The tool first show the given CO2 emission relative to Transportation mode.
 *. Followed by request for Functional Requirement query.
 *. It is important to have --transportation-method and --distance in the query. Otherwise it will prompt to enter query again.
