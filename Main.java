@@ -45,6 +45,8 @@ public class Main {
 
             }
 
+
+
             //converting distance string to double
             traversedDistance = Double.parseDouble(distance);
 

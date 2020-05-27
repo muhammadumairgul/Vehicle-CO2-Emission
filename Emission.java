@@ -29,4 +29,5 @@ public class Emission {
                 ", produces co2Emission of " + co2Emission +
                 '}';
     }
+
 }
