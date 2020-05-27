@@ -11,6 +11,7 @@ public class Emission {
         this.transportMode = transportMode;
         this.co2Emission = co2Emission;
     }
+    
 
     //emission class getter
     public String getTransportMode() {
@@ -21,11 +22,11 @@ public class Emission {
         return co2Emission;
     }
 
-    //calling emission class variable as combined string
+    ////calling emission class variable as combined string
     @Override
     public String toString() {
-        return "Emisssion{" +
-                "transportMode of " + transportMode + '\'' +
+        return "Emisssion caused by{" +
+                "transportMode: " + transportMode + '\'' +
                 ", produces co2Emission of " + co2Emission +
                 '}';
     }

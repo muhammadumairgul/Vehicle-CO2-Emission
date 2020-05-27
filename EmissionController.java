@@ -54,5 +54,5 @@ public class EmissionController {
                     this.eTransportationList.get(i).getCo2Emission());
         }
     }
-    
+
 }
